@@ -14,7 +14,6 @@
         opencv:show_fps="true"
         opencv:camera_id="any" />
 
-<<<<<<< HEAD
     <Button
         android:text="Button"
         android:layout_width="wrap_content"
@@ -27,22 +26,11 @@
         android:layout_marginTop="113dp"
         android:onClick="PB_start_algorithm_click"
         android:id="@+id/button" />
-=======
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/camera_view"
-        android:layout_marginLeft="118dp"
-        android:layout_marginStart="118dp"
-        android:id="@+id/TV_1" />
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
@@ -50,25 +38,6 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="34dp"
         android:id="@+id/TV_1" />
-=======
-        android:layout_alignRight="@+id/TV_1"
-        android:layout_alignEnd="@+id/TV_1"
-        android:layout_marginRight="52dp"
-        android:layout_marginEnd="52dp"
-        android:id="@+id/TV_2"
-        android:layout_below="@+id/TV_1" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:onClick="PB_click"
-        android:id="@+id/button"
-        android:layout_below="@+id/TV_2"
-        android:layout_toRightOf="@+id/TV_2"
-        android:layout_toEndOf="@+id/TV_2" />
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 
     <EditText
         android:layout_width="wrap_content"
@@ -76,26 +45,18 @@
         android:inputType="textPersonName"
         android:text="1"
         android:ems="10"
-<<<<<<< HEAD
         android:layout_below="@+id/TV_1"
         android:layout_toRightOf="@+id/camera_view"
         android:layout_toEndOf="@+id/camera_view"
         android:layout_marginLeft="37dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="40dp"
-=======
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/TV_2"
-        android:layout_alignStart="@+id/TV_2"
-        android:layout_marginTop="111dp"
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
         android:id="@+id/ET_start" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-<<<<<<< HEAD
         android:text="300"
         android:ems="10"
         android:id="@+id/ET_end"
@@ -115,71 +76,4 @@
         android:layout_alignBottom="@+id/button"
         android:layout_toRightOf="@+id/button"
         android:layout_toEndOf="@+id/button" />
-=======
-        android:text="200"
-        android:ems="10"
-        android:layout_below="@+id/ET_start"
-        android:layout_alignLeft="@+id/ET_start"
-        android:layout_alignStart="@+id/ET_start"
-        android:layout_marginTop="21dp"
-        android:id="@+id/ET_end" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/TV_1"
-        android:layout_alignStart="@+id/TV_1"
-        android:layout_marginTop="18dp"
-        android:onClick="PB2_click"
-        android:id="@+id/PB_2" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/PB_2"
-        android:layout_toRightOf="@+id/PB_2"
-        android:layout_toEndOf="@+id/PB_2"
-        android:layout_marginLeft="47dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/TV_3" />
-
-    <Button
-        android:text="test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/PB_track"
-        android:layout_alignLeft="@+id/PB_track"
-        android:layout_alignStart="@+id/PB_track"
-        android:layout_marginTop="11dp"
-        android:onClick="PB_test_click"
-        android:id="@+id/PB_test" />
-
-    <Button
-        android:text="Track"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="PB_track_click"
-        android:id="@+id/PB_track"
-        android:layout_above="@+id/ET_start"
-        android:layout_toRightOf="@+id/camera_view"
-        android:layout_toEndOf="@+id/camera_view"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="26dp" />
-
-    <Button
-        android:text="transform"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/TV_2"
-        android:layout_alignRight="@+id/button"
-        android:layout_alignEnd="@+id/button"
-        android:onClick="PB_transform_click"
-        android:id="@+id/PB_transform" />
-
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 </RelativeLayout>

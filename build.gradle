@@ -1,33 +1,20 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-<<<<<<< HEAD
-=======
-
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
-<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle-experimental:0.8.0'
-=======
-        classpath 'com.android.tools.build:gradle-experimental:0.8.2'
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 allprojects {
     repositories {
         jcenter()
     }
 }
-<<<<<<< HEAD
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
@@ -35,9 +22,3 @@ task clean(type: Delete) {
 dependencies {
 //    compile project(':openCVLibrary320')
 }
-=======
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
