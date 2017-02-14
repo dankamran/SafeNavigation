@@ -13,4 +13,67 @@
         android:id="@+id/camera_view"
         opencv:show_fps="true"
         opencv:camera_id="any" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/camera_view"
+        android:layout_toRightOf="@+id/camera_view"
+        android:layout_toEndOf="@+id/camera_view"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="113dp"
+        android:onClick="PB_start_algorithm_click"
+        android:id="@+id/button" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="34dp"
+        android:id="@+id/TV_1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="1"
+        android:ems="10"
+        android:layout_below="@+id/TV_1"
+        android:layout_toRightOf="@+id/camera_view"
+        android:layout_toEndOf="@+id/camera_view"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/ET_start" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="300"
+        android:ems="10"
+        android:id="@+id/ET_end"
+        android:layout_below="@+id/ET_start"
+        android:layout_alignLeft="@+id/ET_start"
+        android:layout_alignStart="@+id/ET_start" />
+
+    <Button
+        android:text="caffe_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:onClick="PB_caffetest_click"
+        android:id="@+id/PB_caffetest"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
 </RelativeLayout>
