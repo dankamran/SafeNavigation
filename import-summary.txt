@@ -72,7 +72,10 @@ so manually move them:
 * javadoc/org/opencv/core/Scalar.html
 * javadoc/org/opencv/core/Size.html
 * javadoc/org/opencv/core/TermCriteria.html
+<<<<<<< HEAD
 * javadoc/org/opencv/core/TickMeter.html
+=======
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/org/opencv/core/package-frame.html
 * javadoc/org/opencv/core/package-summary.html
 * javadoc/org/opencv/core/package-tree.html
@@ -81,6 +84,7 @@ so manually move them:
 * javadoc/org/opencv/engine/package-summary.html
 * javadoc/org/opencv/engine/package-tree.html
 * javadoc/org/opencv/features2d/
+<<<<<<< HEAD
 * javadoc/org/opencv/features2d/AKAZE.html
 * javadoc/org/opencv/features2d/AgastFeatureDetector.html
 * javadoc/org/opencv/features2d/BFMatcher.html
@@ -100,6 +104,12 @@ so manually move them:
 * javadoc/org/opencv/features2d/MSER.html
 * javadoc/org/opencv/features2d/ORB.html
 * javadoc/org/opencv/features2d/Params.html
+=======
+* javadoc/org/opencv/features2d/DescriptorExtractor.html
+* javadoc/org/opencv/features2d/DescriptorMatcher.html
+* javadoc/org/opencv/features2d/FeatureDetector.html
+* javadoc/org/opencv/features2d/Features2d.html
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/org/opencv/features2d/package-frame.html
 * javadoc/org/opencv/features2d/package-summary.html
 * javadoc/org/opencv/features2d/package-tree.html
@@ -112,7 +122,10 @@ so manually move them:
 * javadoc/org/opencv/imgproc/CLAHE.html
 * javadoc/org/opencv/imgproc/Imgproc.html
 * javadoc/org/opencv/imgproc/LineSegmentDetector.html
+<<<<<<< HEAD
 * javadoc/org/opencv/imgproc/Moments.html
+=======
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/org/opencv/imgproc/Subdiv2D.html
 * javadoc/org/opencv/imgproc/package-frame.html
 * javadoc/org/opencv/imgproc/package-summary.html
@@ -128,7 +141,10 @@ so manually move them:
 * javadoc/org/opencv/ml/NormalBayesClassifier.html
 * javadoc/org/opencv/ml/RTrees.html
 * javadoc/org/opencv/ml/SVM.html
+<<<<<<< HEAD
 * javadoc/org/opencv/ml/SVMSGD.html
+=======
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/org/opencv/ml/StatModel.html
 * javadoc/org/opencv/ml/TrainData.html
 * javadoc/org/opencv/ml/package-frame.html
@@ -172,17 +188,24 @@ so manually move them:
 * javadoc/org/opencv/video/BackgroundSubtractorMOG2.html
 * javadoc/org/opencv/video/DenseOpticalFlow.html
 * javadoc/org/opencv/video/DualTVL1OpticalFlow.html
+<<<<<<< HEAD
 * javadoc/org/opencv/video/FarnebackOpticalFlow.html
 * javadoc/org/opencv/video/KalmanFilter.html
 * javadoc/org/opencv/video/SparseOpticalFlow.html
 * javadoc/org/opencv/video/SparsePyrLKOpticalFlow.html
+=======
+* javadoc/org/opencv/video/KalmanFilter.html
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/org/opencv/video/Video.html
 * javadoc/org/opencv/video/package-frame.html
 * javadoc/org/opencv/video/package-summary.html
 * javadoc/org/opencv/video/package-tree.html
 * javadoc/org/opencv/videoio/
 * javadoc/org/opencv/videoio/VideoCapture.html
+<<<<<<< HEAD
 * javadoc/org/opencv/videoio/VideoWriter.html
+=======
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/org/opencv/videoio/Videoio.html
 * javadoc/org/opencv/videoio/package-frame.html
 * javadoc/org/opencv/videoio/package-summary.html
@@ -192,10 +215,14 @@ so manually move them:
 * javadoc/overview-tree.html
 * javadoc/package-list
 * javadoc/resources/
+<<<<<<< HEAD
 * javadoc/resources/background.gif
 * javadoc/resources/tab.gif
 * javadoc/resources/titlebar.gif
 * javadoc/resources/titlebar_end.gif
+=======
+* javadoc/resources/inherit.gif
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 * javadoc/serialized-form.html
 * javadoc/stylesheet.css
 
@@ -204,11 +231,19 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
+<<<<<<< HEAD
 * AndroidManifest.xml => openCVLibrary320/src/main/AndroidManifest.xml
 * lint.xml => openCVLibrary320/lint.xml
 * res/ => openCVLibrary320/src/main/res/
 * src/ => openCVLibrary320/src/main/java/
 * src/org/opencv/engine/OpenCVEngineInterface.aidl => openCVLibrary320/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+=======
+* AndroidManifest.xml => openCVLibrary300/src/main/AndroidManifest.xml
+* lint.xml => openCVLibrary300/lint.xml
+* res/ => openCVLibrary300/src/main/res/
+* src/ => openCVLibrary300/src/main/java/
+* src/org/opencv/engine/OpenCVEngineInterface.aidl => openCVLibrary300/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl
+>>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 
 Next Steps:
 -----------
