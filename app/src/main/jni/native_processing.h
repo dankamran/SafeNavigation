@@ -22,12 +22,7 @@
 
 extern "C" {
 JNIEXPORT void JNICALL Java_org_honorato_opencvsample_MainActivity_FindFeatures(JNIEnv *, jobject,
-<<<<<<< HEAD
                                                                                 jlong addrGray,
                                                                                 jlong addrRgba);
-=======
-                                                                                jlong addrRgba,
-                                                                                jlong addrRgba_prev);
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
 }
 #endif //OPENCV_SAMPLE_NATIVE_PROCESSING_H
