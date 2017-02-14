@@ -29,3 +29,14 @@ sdk.dir=~/Library/Android/sdk
 ndk.dir=/usr/local/android-ndk-r10e
 opencv.dir=~/dev/androidstudio/OpenCV-android-sdk/sdk/native/jni/include
 ```
+
+## To use Safe Navigation code:
+1. Specify location of your dataset:
+Set these parameters in MainActivity.java
+basic_path=path/to/local/folder/containing/your/dataset
+dataset_name=/name/of/folder/for/your/dataset
+
+2. Create another folder inside dataset_folder called "images" and put all of images inside it.
+3. Put CNN model in the basic_path/model folder
+4. Set first and last number of images inside the application first view.
+5. Press "Button" inside application first view to start processing.
