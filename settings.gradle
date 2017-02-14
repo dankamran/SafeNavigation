@@ -1,7 +1,3 @@
 include ':app'
 include ':openCVLibrary300'
-<<<<<<< HEAD
 include ':openCVLibrary320'
-=======
-include ':openCVLibrary300'
->>>>>>> daff3778747dda9ccd6d024b3b9364f7293f8ece
